@@ -1,0 +1,80 @@
+# =========================
+# Build folders
+# =========================
+out/
+build/
+cmake-build-*/
+
+# =========================
+# CMake
+# =========================
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# MSBuild
+# =========================
+Debug/
+Release/
+x64/
+x86/
+
+# =========================
+# Executables / binaries
+# =========================
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+
+# =========================
+# Ninja
+# =========================
+.ninja_deps
+.ninja_log
+build.ninja
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# vcpkg
+# =========================
+vcpkg_installed/
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+.DS_Store
+
+# =========================
+# Optional:
+# Keep shaders/assets tracked
+# =========================
+!Shaders/
+!assets/
+
+# Prevent gigantic git repo
+*.cache
+*.tmp
+*.ipch
